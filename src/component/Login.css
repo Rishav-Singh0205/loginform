@@ -1,0 +1,126 @@
+.text1 {
+  margin-top: 40px;
+}
+.log {
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+.btn a {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  display: inline-flex;
+  outline: none;
+  position: relative;
+  transition: 0.3s;
+  padding: 10px;
+  text-decoration: none;
+}
+a:before {
+  content: "";
+  border-bottom: 4px solid #b70e89;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  transition: 0.3s;
+}
+a:hover:before {
+  width: 180%;
+  padding: 0;
+}
+a:active {
+  background: #000;
+  color: #fff;
+  transition: none;
+}
+
+button,
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  border-radius: 26px;
+  padding: 15px;
+  margin: 10px 0px;
+}
+button {
+  width: 330px;
+  margin-top: 25px;
+  background-color: #b70e89;
+  cursor: pointer;
+  color: white;
+  border: none;
+  opacity: 1;
+}
+.forg {
+  color: #b70e89;
+  text-align: right;
+  margin-right: 8%;
+  letter-spacing: 0px;
+  cursor: pointer;
+  opacity: 1;
+}
+.gft p {
+  color: #9d9d9d;
+}
+.goog {
+  height: 4vmin;
+  margin-inline: 5%;
+  padding: 1%;
+  border: 2px solid rgb(246, 227, 227);
+  padding: 10px;
+  border-radius: 26px;
+  cursor: pointer;
+  opacity: 1;
+}
+.text2 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Roboto;
+}
+.text2 p {
+  color: black;
+  font-size: 95%;
+}
+.pra span {
+  color: #b70e89;
+  cursor: pointer;
+}
+.pra1 span {
+  color: #b70e89;
+  cursor: pointer;
+  text-decoration: underline;
+}
+form {
+  border: 3px solid #f1f1f1;
+  margin-left: 35%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 428px;
+  height: 926px;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  padding: 25px;
+}
+@media screen and (max-width: 600px) {
+  .form {
+width: 3%;
+margin-top: 0;
+margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form {
+    width: 35%;
+    margin-top: 0;
+  }
+}
